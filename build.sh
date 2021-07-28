@@ -1,3 +1,8 @@
 #!/bin/bash
 
-docker build -t cellranger-atac:1.2.0 .
+source config.sh
+
+docker build \
+    --tag ${image_name}:${version} \
+    --build-arg DOWNLOAD_URL=${download_url} \
+    --build-arg CELLRANGER_ATAC_VERSION=${version} .

@@ -16,5 +16,5 @@ RUN curl -o cellranger-atac-${CELLRANGER_ATAC_VERSION}.tar.gz ${DOWNLOAD_URL} \
 
 WORKDIR /opt
 
-ENTRYPOINT [ "cellranger-atac" ]
-CMD [ "--help"]
+# ENTRYPOINT [ "cellranger-atac" ]
+# CMD [ "--help"]
