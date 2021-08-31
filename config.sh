@@ -1,5 +1,6 @@
 version="2.0.0"
-download_url="https://cf.10xgenomics.com/releases/cell-atac/cellranger-atac-2.0.0.tar.gz?Expires=1626240815&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZi4xMHhnZW5vbWljcy5jb20vcmVsZWFzZXMvY2VsbC1hdGFjL2NlbGxyYW5nZXItYXRhYy0yLjAuMC50YXIuZ3oiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE2MjYyNDA4MTV9fX1dfQ__&Signature=mYSOyQCgpxRI6W66AIpdYzI7d6VHm99M49AtJSJJ9bkAXI8IWuOn~zcwu8YUWOEvVORNxKICEMi989sjQTSZl8aT2WYpBCATZjV~CHFIP~whdUSWXxVRZ1fzwFpkjA-waYh8mW1hRBqYIuZu4EYodp0wdJt0WT49bjDCdquFfvSGzaYWw3Octra012u6Ug2f685z3r1Y8LSVqxOfUUbP0nG~DxNXr4QWsy8x2lwWW2zVGA95xwZ5W4Mm3qYXpqorVDL8NXCguBYi4bcfYC5CxtffRmFKfyBX-xKWQInbl6kd8HWv32AXBt~OFQDLV6OUYmhS5IoGETbtvYdYzERXLQ__&Key-Pair-Id=APKAI7S6A5RYOXBWRPDA"
+site_url="https://support.10xgenomics.com/single-cell-atac/software/downloads/2.0"
+download_url=""
 
 # docker related
 registry="quay.io/hisplan"
