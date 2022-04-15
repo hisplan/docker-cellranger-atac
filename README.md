@@ -1,6 +1,6 @@
 # docker-cellranger-atac
 
-Dockerized Cell Ranger ATAC v2.0.0
+Dockerized Cell Ranger ATAC v2.1.0
 
 ## Build Container Image
 
@@ -25,17 +25,17 @@ conda activate scing
 ## Usage
 
 ```bash
-$ docker run -it --rm cellranger-atac:2.0.0 --help
+$ docker run -it --rm cellranger-atac:2.1.0 --help
 
-cellranger-atac cellranger-atac-2.0.0
+cellranger-atac cellranger-atac-2.1.0
 Process 10x Genomics Chromium Single Cell ATAC data
 
 USAGE:
     cellranger-atac <SUBCOMMAND>
 
-FLAGS:
-    -h, --help       Prints help information
-    -V, --version    Prints version information
+OPTIONS:
+    -h, --help       Print help information
+    -V, --version    Print version information
 
 SUBCOMMANDS:
     count        Count reads from a single Single Cell ATAC library
@@ -45,8 +45,7 @@ SUBCOMMANDS:
     reanalyze    Re-run secondary analysis (dimensionality reduction, clustering, etc) on a
                  completed `cellranger-atac count` or `cellranger-atac aggr` run
     testrun      Run a tiny cellranger-atac count pipeline to verify software integrity
-    mkgtf        Filter a GTF file by attribute prior to creating a 10x reference
     upload       Upload analysis logs to 10x Genomics support
     sitecheck    Collect linux system configuration information
-    help         Prints this message or the help of the given subcommand(s)
+    help         Print this message or the help of the given subcommand(s)
 ```
